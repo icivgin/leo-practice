@@ -1,0 +1,103 @@
+body {
+	background-color: #101010  ;
+	font-family: 'Maven Pro', sans-serif;
+}
+.navbar-default {
+	background-color: transparent;
+	border: 0;
+	padding: 20px;
+}
+.navbar > li> a {
+	color: white;
+}
+
+.cvp {
+	text-align: center;
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 36px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white;
+	font-size: 18px;
+}
+
+#box-wrapper {
+	position: relative;
+	width: 420px;
+  margin: 0 auto;
+}
+
+#a {
+	position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 200px;
+  height: 100px;
+  opacity: .4;
+
+}
+
+#a:hover {
+}
+
+#b {
+	position: absolute;
+  top: 174px;
+  left: 102px;
+  width: 45px;
+  transition: all .2s ease-in-out;
+    opacity: 1;
+
+}
+
+#b:hover {
+  transform: scale(1.2);
+  opacity: 1
+}
+
+#c {
+	position: absolute;
+  top: 132px;
+  left: 135px;
+  width: 73px;
+  transition: all .2s ease-in-out;
+    opacity: 1;
+
+}
+
+#c:hover {
+  transform: scale(1.2);
+  opacity: 1
+}
+#d {
+	position: absolute;
+  top: 131px;
+  left: 108px;
+  width: 56px;
+  transition: all .2s ease-in-out;
+  opacity: 1;
+}
+
+#d:hover {
+  transform: scale(1.2);
+  opacity: 1
+}
+#e {
+	position: absolute;
+  top: 205px;
+  left: 176px;
+  width: 67px;
+  transition: all .2s ease-in-out;
+  opacity: 1;
+}
+
+#e:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
