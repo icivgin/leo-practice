@@ -3,29 +3,44 @@ body {
 	font-family: 'Maven Pro', sans-serif;
 }
 .navbar-default {
-	background-color: transparent;
+  background-color: transparent;
+/*	background-color: #181818;
+  border:0;
+  border-radius: 0px;*/
 	border: 0;
-	padding: 20px;
+	padding: 15px;
 }
 .navbar > li> a {
 	color: white;
 }
-
 .cvp {
 	text-align: center;
 	color: white;
 }
-
+.cvp-sub {
+  text-align: center;
+  color: grey;
+}
 .navbar-default .navbar-brand {
 	color: white;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 36px;
+  padding-top: 18px;
 }
-
+.navbar-default .navbar-brand:hover {
+  color: white;
+}
 .navbar-default .navbar-nav>li>a {
 	color:white;
 	font-size: 18px;
+  padding-top: 12px;
 }
+.navbar-default .navbar-nav>li>a:hover {
+  color:#00ffff;
+}
+
+
+
 
 #box-wrapper {
 	position: relative;
