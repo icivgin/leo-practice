@@ -32,7 +32,7 @@ body {
 }
 .navbar-default .navbar-nav>li>a {
 	color:white;
-	font-size: 18px;
+	font-size: 16px;
   padding-top: 12px;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -48,6 +48,8 @@ body {
   margin: 0 auto;
 }
 
+
+/* background */
 #a {
 	position: absolute;
   top: 0px;
@@ -55,64 +57,82 @@ body {
   width: 200px;
   height: 100px;
   opacity: .4;
-
 }
-
 #a:hover {
 }
 
+
+/* biceps */
 #b {
 	position: absolute;
   top: 174px;
   left: 102px;
   width: 45px;
   transition: all .2s ease-in-out;
-    opacity: 1;
-
+  opacity: .2;
 }
-
 #b:hover {
-  transform: scale(1.2);
+  transform: scale(1.02);
   opacity: 1
 }
 
+
+/* pecs */
 #c {
 	position: absolute;
-  top: 132px;
-  left: 135px;
-  width: 73px;
+  top: 140px;
+  left: 140px;
+  width: 135px;
   transition: all .2s ease-in-out;
-    opacity: 1;
-
+  opacity: .2;
 }
-
 #c:hover {
-  transform: scale(1.2);
-  opacity: 1
+  transform: scale(1.02);
+  opacity: .6;
 }
+
+
+/* delts */
 #d {
 	position: absolute;
   top: 131px;
   left: 108px;
   width: 56px;
   transition: all .2s ease-in-out;
-  opacity: 1;
+  opacity: .2;
 }
 
 #d:hover {
-  transform: scale(1.2);
+  transform: scale(1.02);
   opacity: 1
 }
+
+
+/* abs */
 #e {
 	position: absolute;
   top: 205px;
   left: 176px;
   width: 67px;
   transition: all .2s ease-in-out;
-  opacity: 1;
+  opacity: .2;
+}
+#e:hover {
+  transform: scale(1.02);
+  opacity: .7;
 }
 
-#e:hover {
-  transform: scale(1.1);
-  opacity: 1;
+
+/* obliques */
+#f {
+  position: absolute;
+  top: 200px;
+  left: 145px;
+  width: 122px;
+  transition: all .2s ease-in-out;
+  opacity: .2;
+}
+#f:hover {
+  transform: scale(1.005);
+  opacity: .6;
 }
