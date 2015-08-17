@@ -5,15 +5,15 @@ $('.biceps').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-biceps').show();
-	$('#b').css('opacity', '1')
-	$('#i').css('opacity', '.4')
-})
+	$('#bicep-l').css('opacity', '1')
+	$('#bicep-r').css('opacity', '.4')
+});
 $('.biceps').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-biceps').hide();
 	$('.biceps').css('opacity', '0')
-})
+});
 
 // FOREARMS ------------------------------------------------
 $('.forearms').on('mouseenter', function (e) {
@@ -22,14 +22,13 @@ $('.forearms').on('mouseenter', function (e) {
 	$('#quick-view-forearms').show();
 	$('#forearm-l').css('opacity', '1')
 	$('#forearm-r').css('opacity', '.5')
-})
+});
 $('.forearms').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-forearms').hide();
 	$('.forearms').css('opacity', '0')
-})
-
+});
 
 // TIBIAS ------------------------------------------------
 $('.tibias').on('mouseenter', function (e) {
@@ -38,91 +37,88 @@ $('.tibias').on('mouseenter', function (e) {
 	$('#quick-view-tibias').show();
 	$('#tibia-l').css('opacity', '.7')
 	$('#tibia-r').css('opacity', '.6')
-})
+});
 $('.tibias').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-tibias').hide();
 	$('.tibias').css('opacity', '0')
-})
+});
 
 // QUADS ------------------------------------------------
-$('#h').on('mouseenter', function (e) {
+$('#quads').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-quads').show();
-})
-$('#h').on('mouseleave', function (e) {
+});
+$('#quads').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-quads').hide();
-})
-
+});
 
 // DELTOIDS ------------------------------------------------
 $('.delts').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-delts').show();
-	$('#d').css('opacity', '1')
-	$('#j').css('opacity', '.5')
-})
+	$('#delt-l').css('opacity', '1')
+	$('#delt-r').css('opacity', '.5')
+});
 $('.delts').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-delts').hide();
 	$('.delts').css('opacity', '0')
-})
+});
 
 // PECTORALS ------------------------------------------------
-$('#c').on('mouseenter', function (e) {
+$('#pecs').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-pecs').show();
-})
-$('#c').on('mouseleave', function (e) {
+});
+$('#pecs').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-pecs').hide();
-})
+});
 
 // OBLIQUES ------------------------------------------------
-$('#f').on('mouseenter', function (e) {
+$('#obliques').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-obliques').show();
-})
-$('#f').on('mouseleave', function (e) {
+});
+$('#obliques').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-obliques').hide();
-})
+});
 
 // ABDOMINALS ------------------------------------------------
-$('#e').on('mouseenter', function (e) {
+$('#abs').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-abs').show();
-})
-$('#e').on('mouseleave', function (e) {
+});
+$('#abs').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-abs').hide();
-})
+});
 
-// TRAP ------------------------------------------------
-$('#g').on('mouseenter', function (e) {
+// TRAPS -----------------------------------------------------
+$('#traps').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-traps').show();
-})
-$('#g').on('mouseleave', function (e) {
+});
+$('#traps').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-traps').hide();
-})
-
-
+});
 
 
 })

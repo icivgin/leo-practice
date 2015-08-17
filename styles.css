@@ -4,9 +4,6 @@ body {
 }
 .navbar-default {
   background-color: transparent;
-/*	background-color: #181818;
-  border:0;
-  border-radius: 0px;*/
 	border: 0;
 	padding: 15px;
 }
@@ -23,9 +20,9 @@ body {
 }
 .navbar-default .navbar-brand {
 	color: white;
-	font-family: 'Orbitron', sans-serif;
-	font-size: 36px;
+  font-size: 36px;
   padding-top: 18px;
+	font-family: 'Orbitron', sans-serif;
 }
 .navbar-default .navbar-brand:hover {
   color: white;
@@ -39,8 +36,7 @@ body {
   color:#00ffff;
 }
 
-
-/* quick view --------------------------------------------------*/
+/* QUICK-VIEW --------------------------------------------------*/
 .quick-view {
   background-color: #181818;
   color:white;
@@ -49,8 +45,6 @@ body {
   margin-top: 18vh;
 }
 
-
-
 /* muscle man --------------------------------------------------*/
 #box-wrapper {
 	position: relative;
@@ -58,9 +52,8 @@ body {
   margin: 0 auto;
 }
 
-
-/* background --------------------------------------------------*/
-#a {
+/* LEO BACKGROUND ----------------------------------------------*/
+#leo {
 	position: absolute;
   top: 0px;
   left: 50px;
@@ -69,29 +62,26 @@ body {
   opacity: .5;
 }
 
-
-/* biceps --------------------------------------------------*/
-#b {
+/* BICEPS ------------------------------------------------------*/
+#bicep-l {
 	position: absolute;
   top: 174px;
   left: 102px;
   width: 45px;
   -webkit-animation-delay: .2s;
-}
-#i {
+} #bicep-r {
   position: absolute;
   top: 166.6px;
   left: 261.6px;
   width: 41px;
   -webkit-animation-delay: .35s;
-}
-.biceps {
+} .biceps {
   transition: all .2s ease-in-out;
   opacity: 0;
 }
 
-/* pecs --------------------------------------------------*/
-#c {
+/* PECS -------------------------------------------------------*/
+#pecs {
 	position: absolute;
   top: 140px;
   left: 140px;
@@ -99,74 +89,67 @@ body {
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .4s;
-}
-#c:hover {
+} #pecs:hover {
   opacity: .4;
 }
 
 
-/* delts --------------------------------------------------*/
-#d {
+/* DELTS ------------------------------------------------------*/
+#delt-l {
 	position: absolute;
   top: 130.1px;
   left: 108.3px;
   width: 70px;
   -webkit-animation-delay: .45s;
-}
-#j {
+} #delt-r {
   position: absolute;
   top: 128.3px;
   left: 241.3px;
   width: 59.5px;
   -webkit-animation-delay: .47s;
-}
-.delts {
+} .delts {
   transition: all .2s ease-in-out;
   opacity: 0;
 }
 
-/* FOREARMS --------------------------------------------------*/
+/* FOREARMS ---------------------------------------------------*/
 #forearm-l {
   position: absolute;
   top: 259.1px;
   left: 91.5px;
   width: 40.8px;
   -webkit-animation-delay: .3s;
-}
-#forearm-r {
+} #forearm-r {
   position: absolute;
   top: 252.2px;
   left: 270.4px;
   width: 34.5px;
   -webkit-animation-delay: .3s;
-}
-.forearms {
+} .forearms {
   transition: all .2s ease-in-out;
   opacity: 0;
 }
 
-/* tibias --------------------------------------------------*/
+/* TIBIAS -----------------------------------------------------*/
 #tibia-l {
   position: absolute;
   top: 521.0px;
   left: 155.9px;
   width: 37px;
   -webkit-animation-delay: .15s;
-}
-#tibia-r {
+} #tibia-r {
   position: absolute;
   top: 525.6px;
   left: 229.9px;
   width: 29.68px;
   -webkit-animation-delay: .1s;
-}
-.tibias {
+} .tibias {
   transition: all .2s ease-in-out;
   opacity: 0;
 }
 
-/* abs --------------------------------------------------*/
-#e {
+/* ABS ----------======----------------------------------------*/
+#abs {
 	position: absolute;
   top: 206px;
   left: 176px;
@@ -174,14 +157,12 @@ body {
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .25s;
-}
-#e:hover {
+} #abs:hover {
   opacity: .5;
 }
 
-
-/* obliques --------------------------------------------------*/
-#f {
+/* OBLIQUES --------------------------------------------------*/
+#obliques {
   position: absolute;
   top: 203px;
   left: 144px;
@@ -189,13 +170,12 @@ body {
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .3s;
-}
-#f:hover {
+} #obliques:hover {
   opacity: .6;
 }
 
-/* traps --------------------------------------------------*/
-#g {
+/* TRAPS ------------------------------------------------------*/
+#traps {
   position: absolute;
   top: 108.4px;
   left: 147.4px;
@@ -203,13 +183,12 @@ body {
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .5s;
-}
-#g:hover {
+} #traps:hover {
   opacity: .6;
 }
 
-/* quads --------------------------------------------------*/
-#h {
+/* QUADS ------------------------------------------------------*/
+#quads {
   position: absolute;
   top: 338.5px;
   left: 147.2px;
@@ -217,7 +196,6 @@ body {
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .2s;
-}
-#h:hover {
+} #quads:hover {
   opacity: .6;
 }
