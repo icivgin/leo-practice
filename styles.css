@@ -84,8 +84,8 @@ body {
 #pecs {
 	position: absolute;
   top: 140px;
-  left: 140px;
-  width: 135px;
+  left: 140.5px;
+  width: 134.8px;
   transition: all .2s ease-in-out;
   opacity: .0;
   -webkit-animation-delay: .4s;
@@ -151,7 +151,7 @@ body {
 /* ABS ----------======----------------------------------------*/
 #abs {
 	position: absolute;
-  top: 206px;
+  top: 205px;
   left: 176px;
   width: 67px;
   transition: all .2s ease-in-out;
