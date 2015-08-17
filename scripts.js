@@ -1,27 +1,33 @@
 $(function() {
 
 // BICEPS
-$('#b').on('mouseenter', function (e) {
+$('.biceps').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-biceps').show();
+	$('#b').css('opacity', '1')
+	$('#i').css('opacity', '.7')
 })
-$('#b').on('mouseleave', function (e) {
+$('.biceps').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-biceps').hide();
+	$('.biceps').css('opacity', '0')
 })
 
 // DELTOIDS
-$('#d').on('mouseenter', function (e) {
+$('.delts').on('mouseenter', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-delts').show();
+	$('#d').css('opacity', '1')
+	$('#j').css('opacity', '.5')
 })
-$('#d').on('mouseleave', function (e) {
+$('.delts').on('mouseleave', function (e) {
 	e.preventDefault();
 
 	$('#quick-view-delts').hide();
+	$('.delts').css('opacity', '0')
 })
 
 // PECTORALS

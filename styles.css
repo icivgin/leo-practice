@@ -40,7 +40,7 @@ body {
 }
 
 
-/* quick view */
+/* quick view --------------------------------------------------*/
 .quick-view {
   background-color: #181818;
   color:white;
@@ -51,7 +51,7 @@ body {
 
 
 
-/* muscle man */
+/* muscle man --------------------------------------------------*/
 #box-wrapper {
 	position: relative;
 	width: 420px;
@@ -59,7 +59,7 @@ body {
 }
 
 
-/* background */
+/* background --------------------------------------------------*/
 #a {
 	position: absolute;
   top: 0px;
@@ -70,22 +70,29 @@ body {
 }
 
 
-/* biceps */
+/* biceps --------------------------------------------------*/
 #b {
 	position: absolute;
   top: 174px;
   left: 102px;
   width: 45px;
+}
+/* biceps */
+#i {
+  position: absolute;
+  top: 166.6px;
+  left: 262.1px;
+  width: 41px;
+}
+.biceps {
   transition: all .2s ease-in-out;
-  opacity: .0;
+  opacity: 0;
 }
-#b:hover {
+.biceps:hover {
   transform: scale(1.02);
-  opacity: .9
 }
 
-
-/* pecs */
+/* pecs --------------------------------------------------*/
 #c {
 	position: absolute;
   top: 140px;
@@ -100,23 +107,29 @@ body {
 }
 
 
-/* delts */
+/* delts --------------------------------------------------*/
 #d {
 	position: absolute;
-  top: 131px;
-  left: 108px;
-  width: 56px;
+  top: 130.1px;
+  left: 108.3px;
+  width: 70px;
+}
+#j {
+  position: absolute;
+  top: 128.3px;
+  left: 241.3px;
+  width: 59.5px;
+}
+.delts {
   transition: all .2s ease-in-out;
-  opacity: .0;
+  opacity: 0;
 }
 
-#d:hover {
-  transform: scale(1.02);
-  opacity: .9
-}
+.delts:hover {
+/*  transform: scale(1.02);
+*/}
 
-
-/* abs */
+/* abs --------------------------------------------------*/
 #e {
 	position: absolute;
   top: 206px;
@@ -131,7 +144,7 @@ body {
 }
 
 
-/* obliques */
+/* obliques --------------------------------------------------*/
 #f {
   position: absolute;
   top: 203px;
@@ -145,7 +158,7 @@ body {
   opacity: .6;
 }
 
-/* traps */
+/* traps --------------------------------------------------*/
 #g {
   position: absolute;
   top: 108.4px;
@@ -155,6 +168,20 @@ body {
   opacity: .0;
 }
 #g:hover {
+  transform: scale(1.005);
+  opacity: .6;
+}
+
+/* quads --------------------------------------------------*/
+#h {
+  position: absolute;
+  top: 338.5px;
+  left: 147.2px;
+  width: 119.8px;
+  transition: all .2s ease-in-out;
+  opacity: .0;
+}
+#h:hover {
   transform: scale(1.005);
   opacity: .6;
 }
