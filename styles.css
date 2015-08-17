@@ -125,9 +125,23 @@ body {
   opacity: 0;
 }
 
-.delts:hover {
-/*  transform: scale(1.02);
-*/}
+/* tibias --------------------------------------------------*/
+#tibia-l {
+  position: absolute;
+  top: 521.0px;
+  left: 155.9px;
+  width: 37px;
+}
+#tibia-r {
+  position: absolute;
+  top: 525.6px;
+  left: 229.9px;
+  width: 29.68px;
+}
+.tibias {
+  transition: all .2s ease-in-out;
+  opacity: 0;
+}
 
 /* abs --------------------------------------------------*/
 #e {

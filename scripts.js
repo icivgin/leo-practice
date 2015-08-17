@@ -1,6 +1,6 @@
 $(function() {
 
-// BICEPS
+// BICEPS ------------------------------------------------
 $('.biceps').on('mouseenter', function (e) {
 	e.preventDefault();
 
@@ -15,7 +15,22 @@ $('.biceps').on('mouseleave', function (e) {
 	$('.biceps').css('opacity', '0')
 })
 
-// DELTOIDS
+// TIBIAS ------------------------------------------------
+$('.tibias').on('mouseenter', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-tibias').show();
+	$('#tibia-l').css('opacity', '.7')
+	$('#tibia-r').css('opacity', '.6')
+})
+$('.tibias').on('mouseleave', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-tibias').hide();
+	$('.tibias').css('opacity', '0')
+})
+
+// DELTOIDS ------------------------------------------------
 $('.delts').on('mouseenter', function (e) {
 	e.preventDefault();
 
@@ -30,7 +45,7 @@ $('.delts').on('mouseleave', function (e) {
 	$('.delts').css('opacity', '0')
 })
 
-// PECTORALS
+// PECTORALS ------------------------------------------------
 $('#c').on('mouseenter', function (e) {
 	e.preventDefault();
 
@@ -42,7 +57,7 @@ $('#c').on('mouseleave', function (e) {
 	$('#quick-view-pecs').hide();
 })
 
-// OBLIQUES
+// OBLIQUES ------------------------------------------------
 $('#f').on('mouseenter', function (e) {
 	e.preventDefault();
 
@@ -54,7 +69,7 @@ $('#f').on('mouseleave', function (e) {
 	$('#quick-view-obliques').hide();
 })
 
-// ABDOMINALS
+// ABDOMINALS ------------------------------------------------
 $('#e').on('mouseenter', function (e) {
 	e.preventDefault();
 
@@ -66,7 +81,7 @@ $('#e').on('mouseleave', function (e) {
 	$('#quick-view-abs').hide();
 })
 
-// TRAP
+// TRAP ------------------------------------------------
 $('#g').on('mouseenter', function (e) {
 	e.preventDefault();
 
