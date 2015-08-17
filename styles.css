@@ -76,13 +76,14 @@ body {
   top: 174px;
   left: 102px;
   width: 45px;
+  -webkit-animation-delay: .2s;
 }
-/* biceps */
 #i {
   position: absolute;
   top: 166.6px;
   left: 261.6px;
   width: 41px;
+  -webkit-animation-delay: .35s;
 }
 .biceps {
   transition: all .2s ease-in-out;
@@ -97,6 +98,7 @@ body {
   width: 135px;
   transition: all .2s ease-in-out;
   opacity: .0;
+  -webkit-animation-delay: .4s;
 }
 #c:hover {
   opacity: .4;
@@ -109,12 +111,14 @@ body {
   top: 130.1px;
   left: 108.3px;
   width: 70px;
+  -webkit-animation-delay: .45s;
 }
 #j {
   position: absolute;
   top: 128.3px;
   left: 241.3px;
   width: 59.5px;
+  -webkit-animation-delay: .47s;
 }
 .delts {
   transition: all .2s ease-in-out;
@@ -127,12 +131,14 @@ body {
   top: 259.1px;
   left: 91.5px;
   width: 40.8px;
+  -webkit-animation-delay: .3s;
 }
 #forearm-r {
   position: absolute;
   top: 252.2px;
   left: 270.4px;
   width: 34.5px;
+  -webkit-animation-delay: .3s;
 }
 .forearms {
   transition: all .2s ease-in-out;
@@ -145,12 +151,14 @@ body {
   top: 521.0px;
   left: 155.9px;
   width: 37px;
+  -webkit-animation-delay: .15s;
 }
 #tibia-r {
   position: absolute;
   top: 525.6px;
   left: 229.9px;
   width: 29.68px;
+  -webkit-animation-delay: .1s;
 }
 .tibias {
   transition: all .2s ease-in-out;
@@ -165,6 +173,7 @@ body {
   width: 67px;
   transition: all .2s ease-in-out;
   opacity: .0;
+  -webkit-animation-delay: .25s;
 }
 #e:hover {
   opacity: .5;
@@ -179,6 +188,7 @@ body {
   width: 123px;
   transition: all .2s ease-in-out;
   opacity: .0;
+  -webkit-animation-delay: .3s;
 }
 #f:hover {
   opacity: .6;
@@ -192,6 +202,7 @@ body {
   width: 115.2px;
   transition: all .2s ease-in-out;
   opacity: .0;
+  -webkit-animation-delay: .5s;
 }
 #g:hover {
   opacity: .6;
@@ -205,6 +216,7 @@ body {
   width: 119.8px;
   transition: all .2s ease-in-out;
   opacity: .0;
+  -webkit-animation-delay: .2s;
 }
 #h:hover {
   opacity: .6;
