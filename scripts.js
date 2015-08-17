@@ -30,6 +30,19 @@ $('.tibias').on('mouseleave', function (e) {
 	$('.tibias').css('opacity', '0')
 })
 
+// QUADS ------------------------------------------------
+$('#h').on('mouseenter', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-quads').show();
+})
+$('#h').on('mouseleave', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-quads').hide();
+})
+
+
 // DELTOIDS ------------------------------------------------
 $('.delts').on('mouseenter', function (e) {
 	e.preventDefault();
