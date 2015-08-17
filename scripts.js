@@ -6,7 +6,7 @@ $('.biceps').on('mouseenter', function (e) {
 
 	$('#quick-view-biceps').show();
 	$('#b').css('opacity', '1')
-	$('#i').css('opacity', '.7')
+	$('#i').css('opacity', '.4')
 })
 $('.biceps').on('mouseleave', function (e) {
 	e.preventDefault();
@@ -14,6 +14,22 @@ $('.biceps').on('mouseleave', function (e) {
 	$('#quick-view-biceps').hide();
 	$('.biceps').css('opacity', '0')
 })
+
+// FOREARMS ------------------------------------------------
+$('.forearms').on('mouseenter', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-forearms').show();
+	$('#forearm-l').css('opacity', '1')
+	$('#forearm-r').css('opacity', '.5')
+})
+$('.forearms').on('mouseleave', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-forearms').hide();
+	$('.forearms').css('opacity', '0')
+})
+
 
 // TIBIAS ------------------------------------------------
 $('.tibias').on('mouseenter', function (e) {
