@@ -66,7 +66,7 @@ body {
   left: 50px;
   width: 200px;
   height: 100px;
-  opacity: .4;
+  opacity: .5;
 }
 
 
@@ -77,11 +77,11 @@ body {
   left: 102px;
   width: 45px;
   transition: all .2s ease-in-out;
-  opacity: .2;
+  opacity: .0;
 }
 #b:hover {
   transform: scale(1.02);
-  opacity: 1
+  opacity: .9
 }
 
 
@@ -92,11 +92,11 @@ body {
   left: 140px;
   width: 135px;
   transition: all .2s ease-in-out;
-  opacity: .2;
+  opacity: .0;
 }
 #c:hover {
   transform: scale(1.02);
-  opacity: .5;
+  opacity: .4;
 }
 
 
@@ -107,12 +107,12 @@ body {
   left: 108px;
   width: 56px;
   transition: all .2s ease-in-out;
-  opacity: .2;
+  opacity: .0;
 }
 
 #d:hover {
   transform: scale(1.02);
-  opacity: 1
+  opacity: .9
 }
 
 
@@ -123,24 +123,38 @@ body {
   left: 176px;
   width: 67px;
   transition: all .2s ease-in-out;
-  opacity: .2;
+  opacity: .0;
 }
 #e:hover {
   transform: scale(1.02);
-  opacity: .6;
+  opacity: .5;
 }
 
 
 /* obliques */
 #f {
   position: absolute;
-  top: 200px;
-  left: 145px;
-  width: 122px;
+  top: 203px;
+  left: 144px;
+  width: 123px;
   transition: all .2s ease-in-out;
-  opacity: .2;
+  opacity: .0;
 }
 #f:hover {
+  transform: scale(1.005);
+  opacity: .6;
+}
+
+/* traps */
+#g {
+  position: absolute;
+  top: 108.4px;
+  left: 147.4px;
+  width: 115.2px;
+  transition: all .2s ease-in-out;
+  opacity: .0;
+}
+#g:hover {
   transform: scale(1.005);
   opacity: .6;
 }

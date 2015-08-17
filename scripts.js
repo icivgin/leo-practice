@@ -60,6 +60,18 @@ $('#e').on('mouseleave', function (e) {
 	$('#quick-view-abs').hide();
 })
 
+// TRAP
+$('#g').on('mouseenter', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-traps').show();
+})
+$('#g').on('mouseleave', function (e) {
+	e.preventDefault();
+
+	$('#quick-view-traps').hide();
+})
+
 
 
 
